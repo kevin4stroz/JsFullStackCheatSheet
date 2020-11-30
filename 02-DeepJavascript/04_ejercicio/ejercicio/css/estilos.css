@@ -1,0 +1,32 @@
+body {
+    background-color: black;color: white;
+}
+
+#mostrarDiv {
+    background-color: teal; 
+    font-size: 20px;
+    border : 5px dashed white;
+    padding : 2%;
+}
+
+.divShow {
+    color:lime;
+}
+
+.caja {
+    min-width: 42%;
+    height: 100%;
+    float:left;
+    margin-left: 5%;
+}
+
+#formulario {
+    background-color: teal;
+    align-content: center;
+}
+
+.error_show {
+    color:rgb(229, 238, 110);
+    font-size: medium;
+    display: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio</title>
+        <script type="text/javascript" src="js/ejercicio.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body>
+        <h1>Ejercicio</h1>
+
+        <div id="form_" class="caja">
+            <form id="formulario" action="#" method="post" onsubmit="return false;"> 
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    
+                    <p>
+                        <input type="text" id="nombre" name="nombre" />
+                        <label for="nombre">:NOMBRE</label>
+                    </p>
+
+                    <p>
+                        <input type="text" id="apellido" name="apellido" />
+                        <label for="apellido">:APELLIDO</label>
+                    </p>
+                    
+                    <p>
+                        <input type="number" id="edad" name="edad" />
+                        <label for="edad">:EDAD</label>
+                    </p>
+
+                    <p>
+                        <span id="er_nombre" class="error_show">*Error en el dato nombre</span>
+                        <span id="er_apellido" class="error_show">*Error en el dato apellido</span>
+                        <span id="er_edad" class="error_show">*Error en el dato edad</span>
+                    </p>
+
+                    <button type="submit" id="btnForm">Enviame</button>
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="mostrarDiv" class="caja">
+            <h1>Informacion personal</h1>
+            <p>Nombre : <span id="span_nombre" class="divShow">NONE</span></p>
+            <p>Apellido : <span id="span_apellido" class="divShow">NONE</span></p>
+            <p>Edad : <span id="span_edad" class="divShow">0</span></p>
+            <button id="btnDiv">Borrar datos</button></br>
+        </div>
+    </body>
+</html>
