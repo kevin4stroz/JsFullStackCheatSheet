@@ -24,6 +24,8 @@
 - [JSON](02-DeepJavascript/05_json/05_json.md)
 - [LocalStorage](02-DeepJavascript/06_localstorage/06_localstorage.md)
 - [Ejercicio LS y JSON](02-DeepJavascript/07_ejercicio/07_ejercicio.md)
+- [Peticiones asincronas](02-DeepJavascript/08_peticiones_asincronas/08_peticiones_asincronas.md)
+- [Fechas y matematicas](02-DeepJavascript/09_fechas_matematicas/09_fechas_matematicas.md)
 
 ```markdown
 [VOLVER AL INDICE](../../README.md)
