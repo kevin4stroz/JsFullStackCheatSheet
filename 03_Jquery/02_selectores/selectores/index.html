@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Selectores</title>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/selectores.js"></script>
+
+        <style>
+            .zebra{
+                border: 2px dashed orange;
+            }
+
+            .grande{
+                font-size: 30px;
+            }
+
+            .margensuperior{
+                display: block;
+                margin-top: 45px;
+            }
+
+            .resaltado{
+                border-bottom: 2px solid yellow;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: black;color: white;">
+        <h1>Selectores</h1>
+        <p id="rojo" class="zebra">id rojo</p>
+        <p id="verde" class="sin_borde">id verde</p>
+        <p id="amarillo" class="sin_borde">id amarillo</p>
+
+        <p class="zebra"> Soy un parrafo blanco</p>
+
+
+        <ul>
+            <li><a href="https://www.google.com" title="Google">Ir a google</a></li>
+            <li><a href="https://www.facebook.com" title="facebook">Ir a facebook</a></li>
+        </ul>
+
+        <div id="caja">
+            <p>hola soy una caja</p>
+            <ul>
+                <li>elemento 1</li>
+                <li class="resaltado">elemento 2</li>
+            </ul>
+
+            <span class="resaltado">soy un espan</span>
+        </div>
+
+    </body>
+</html>

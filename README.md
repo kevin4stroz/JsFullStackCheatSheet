@@ -29,7 +29,8 @@
 
 ## Jquery
 
-
+- [Primeros pasos Jquery](03_Jquery/01_primeros_pasos/01_primeros_pasos.md)
+- [Selectores](03_Jquery/02_selectores/02_selectores.md)
 
 ```markdown
 [VOLVER AL INDICE](../../README.md)
