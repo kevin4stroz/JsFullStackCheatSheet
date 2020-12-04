@@ -32,6 +32,7 @@
 - [Primeros pasos Jquery](03_Jquery/01_primeros_pasos/01_primeros_pasos.md)
 - [Selectores](03_Jquery/02_selectores/02_selectores.md)
 - [Eventos](03_Jquery/03_eventos/03_eventos.md)
+- [Texto, Efectos y Animaciones](03_Jquery/04_efectos_anima/04_efectos_anima.md)
 
 ```markdown
 [VOLVER AL INDICE](../../README.md)
