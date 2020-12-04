@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Efectos y mas Jquery</title>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/efectos.js"></script>
+        <style>
+            .caja{
+                width: 300px;
+                height: 50px;
+                border: 2px dashed yellow;
+                background-color: blueviolet;
+                margin-top: 10px;
+                text-align: center;
+                line-height: 50px;
+                color: white;
+                font-size: 19px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+        </style>
+    </head>
+    <body style="background-color: black;color: white;">
+        <h1>MANIPULACION DE TEXTO JQUERY</h1>
+
+        <h3>Añadir nuevos enlaces</h3>
+        <input type="text" id="add_link">
+        <button id="add_btn" disabled="disabled">añadir</button>
+        <div style="background: tomato;">
+            <ul id="menu">
+                <li><a href="https://www.google.com"></a></li>
+                <li><a href="https://www.twitter.com"></a></li>
+                <li><a href="https://www.hotmail.com"></a></li>
+            </ul>
+        </div>
+        <hr>
+        <h1>EFECTOS JQUERY</h1>
+
+        <button id="mostrar">Mostrar div</button>
+        <button id="ocultar">Ocultar div</button>
+
+        <div id="caja" class="caja">
+            JQUERY MOLAAAAAA
+        </div>
+
+        <br>
+
+        <button id="todo">toggle</button>
+
+        <div id="caja2" class="caja">
+            JQUERY MOLAAAAAA
+        </div>
+        
+        <br>
+
+        <button id="fadeTog">fadeToogle</button>
+
+        <div id="caja3" class="caja">
+            JQUERY MOLAAAAAA
+        </div>
+
+        <hr>
+
+        <h1>Animaciones personalizadas</h1>
+
+        <button id="animar">Animame</button>
+
+        <div id="caja4" class="caja">
+            DIV ANIMADOR
+        </div>
+    </body>
+</html>
