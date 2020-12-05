@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Peticiones Ajax Jquery</title>
+
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/pet_ajax.js"></script>
+
+        <style>
+            .caja{
+                border: 2px solid lime;
+                height: 250px;
+                width: 250px;
+                overflow: scroll;
+            }
+        </style>
+
+    </head>
+
+    <body style="background-color: black;color: white;">
+        <h1>Peticiones Ajax Jquery</h1>
+        <div id="datos" class="caja"></div><br>
+        <div id="datos2" class="caja"></div><br><hr>
+
+        <form id="miform" action="https://reqres.in/api/users" method="POST">
+            Nombre: <input type="text" name="nombre">
+            Apellido : <input type="text" name="apellido">
+            <input type="submit" value="registrar">
+        </form>
+
+        <form id="miform2" action="https://reqres.in/api/users" method="POST">
+            <input type="submit" value="registrar">
+        </form>
+
+        <div id="datos3" class="caja"></div><br>
+    </body>
+</html>

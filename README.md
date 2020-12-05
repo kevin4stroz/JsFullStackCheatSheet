@@ -33,6 +33,9 @@
 - [Selectores](03_Jquery/02_selectores/02_selectores.md)
 - [Eventos](03_Jquery/03_eventos/03_eventos.md)
 - [Texto, Efectos y Animaciones](03_Jquery/04_efectos_anima/04_efectos_anima.md)
+- [Peticiones Ajax](03_Jquery/05_pet_ajax/05_pet_ajax.md)
+- [Jquery UI](03_Jquery/06_jquery_ui/06_jquery_ui.md)
+- [Proyecto Pagina Web](03_Jquery/07_Proyecto/07_Proyecto.md)
 
 ```markdown
 [VOLVER AL INDICE](../../README.md)

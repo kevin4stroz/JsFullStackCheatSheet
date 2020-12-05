@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Jquery UI</title>
+
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <!--cargando estilos de jquery-->
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+        <!-- si solo se que funciones basicas-->
+        <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/jquery_ui.js"></script>
+        <style>
+            .elemento{
+                width: 200px;
+                height: 100px;
+                border: 2px solid turquoise;
+                background-color: teal;
+                float: left ;
+                margin: 20px;
+            }
+            .lista_seleccionable li{
+                width: 80%;
+                padding: 20px;
+                border: 1px solid white;
+                list-style: none;
+                cursor : pointer;
+            }  
+
+            ul .ui-selecting{background: green;} 
+            ul .ui-selected{background: blueviolet;} 
+
+            #movible{
+                width: 100px;
+                height: 100px;
+                border: 2px solid red;
+            }
+
+            #area{
+                width: 300px;
+                height: 300px;
+                border: 2px solid lime;
+            }
+
+            .caja-efecto1{
+                float: none;
+                background: yellow;
+                display: none;
+            }
+
+        </style>
+    </head>
+
+    <body style="background-color: black;color: white;">
+        <h1>Jquery UI</h1>
+        <hr>
+            <h1>Widget</h1>
+            <h2>Tooltip</h2>
+                <a href="" id="mis-datos" title="Acceder a la seccion mis datos">Mis datos</a><br>
+                <a href="" id="mis-datos" title="Acceder a la seccion mis datos">Mis datos</a><br>
+                <a href="" id="mis-datos" title="Acceder a la seccion mis datos">Mis datos</a><br>
+            <h2>Cuadros de dialogo</h2>
+                <button id="lanzar_popup">Lanzar PopUp</button>
+                <div class="popup" title="estas seguro?" style="display:none">
+                    <p>Aprenderas muchos</p>
+                </div>
+
+            <h2>Calendario fecha seleccionable</h2>
+                <input type="text" id="calendario">
+
+            <h2>Panel de pestañas</h2>
+                <div id="pestanas">
+                    <ul>
+                        <li><a href="#tabs-1">pestaña 1</a></li>
+                        <li><a href="#tabs-2">pestaña 2</a></li>                        
+                    </ul>
+                    <div id="tabs-1">
+                        soy la primera pestaña
+                    </div>
+                    <div id="tabs-2">
+                        soy la segunda pestaña
+                    </div>
+                </div>
+        <hr>
+            <h1>Efectos</h1>
+            <button id="mostrar">Iniciar el efecto</button>
+            <div class="caja-efecto1 elemento"></div>
+        <hr>
+            <h1>Interacciones</h1>
+            <div id="movible"></div><br>
+            <div id="area"></div>
+            <ul class="lista_seleccionable">
+                <li>GTA</li>
+                <li>COD</li>
+                <li>SUPERMARIO</li>
+                <li>halo</li>
+            </ul>
+            <div class="elemento">hola soy un elemento de la web1</div>
+            <div class="elemento">hola soy un elemento de la web1</div>
+            <div class="elemento">hola soy un elemento de la web1</div>
+    </body>
+</html>
