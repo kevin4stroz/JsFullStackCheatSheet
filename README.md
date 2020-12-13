@@ -39,6 +39,10 @@ https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nod
 - [Jquery UI](03_Jquery/06_jquery_ui/06_jquery_ui.md)
 - [Proyecto Pagina Web](03_Jquery/07_Proyecto/07_Proyecto.md)
 
+## TypeScript
+
+- [Primeros pasos TypeScript](04_TypeScript/01_primeros_pasos/01_primeros_pasos.md)
+
 ```markdown
 [VOLVER AL INDICE](../../README.md)
 ```
