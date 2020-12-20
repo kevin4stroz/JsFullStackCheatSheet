@@ -47,6 +47,9 @@ https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nod
 
 ## Angular
 
+- [Primeros pasos](05_Angular/01_primeros_pasos/01_primeros_pasos.md)
+- [Componentes](05_Angular/02_componentes/02_componentes.md)
+
 ```markdown
 [VOLVER AL INDICE](../../README.md)
 ```
