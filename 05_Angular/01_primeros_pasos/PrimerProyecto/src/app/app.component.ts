@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title = 'Cambiando desde el componente';
+  public mostrarVideoG: boolean = true;
+
+  ocultarVideoJuego(){
+    if(this.mostrarVideoG){
+      this.mostrarVideoG = false;
+    }else{
+      this.mostrarVideoG = true;
+    }
+  }
 }

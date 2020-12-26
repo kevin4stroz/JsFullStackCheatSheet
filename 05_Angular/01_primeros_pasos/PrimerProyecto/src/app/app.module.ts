@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { VideojuegoComponent } from './videojuego/videojuevo.component';
+import { ZapatillasComponent } from './zapatillas/zapatillas.component';
+import { CursosComponent } from './cursos/cursos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VideojuegoComponent
+    VideojuegoComponent,
+    ZapatillasComponent,
+    CursosComponent
   ],
   imports: [
     BrowserModule
@@ -16,3 +20,4 @@ import { VideojuegoComponent } from './videojuego/videojuevo.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
