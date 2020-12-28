@@ -52,6 +52,7 @@ https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nod
 - [Clases y modulos](05_Angular/03_clases_modulos/03_clases_modulos.md)
 - [Directivas estructurales](05_Angular/04_dir_estruc/04_dir_estruc.md)
 - [Data binding y eventos](05_Angular/05_data_binding/05_data_binding.md)
+- [Rutas y paginas](05_Angular/06_rutas_paginas/06_rutas_paginas.md)
 
 ```markdown
 [VOLVER AL INDICE](../../README.md)

@@ -1,0 +1,9 @@
+<h1>{{ title }} app is running!</h1>
+<nav>
+    <a [routerLink] ="['/home']" [routerLinkActive]="['activado']">home</a>
+    &nbsp;
+    <a [routerLink] ="['/pagina2']" [routerLinkActive]="['activado']">pagina3</a>
+    &nbsp;
+    <a [routerLink] ="['/pagina3']" [routerLinkActive]="['activado']">pagina2</a>
+</nav>
+<router-outlet></router-outlet>

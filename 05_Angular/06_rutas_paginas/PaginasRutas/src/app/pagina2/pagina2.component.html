@@ -1,0 +1,10 @@
+<div [ngStyle] = "{'background-color':'lime'}">
+    <h1>PAGINA 2</h1><br>
+    <h2 *ngIf="nombre">Nombre : {{nombre}}</h2>
+    <h2 *ngIf="apellidos">Apellido : {{apellidos}}</h2>
+    <h2 *ngIf="seguidores">Seguidores : {{seguidores}}</h2>
+
+    <br>
+    <button (click)="redireccion()">Llevame a pagina 3</button>
+</div>
+
