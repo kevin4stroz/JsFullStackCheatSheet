@@ -4,10 +4,17 @@
     'padding' : '20px'
 }">
 
+    <p>Añadir marca</p>
+    <p><input type="text" [(ngModel)]="miMarca" (blur)="onBlur()" /></p>
+    <p><input type="text" [(ngModel)]="miMarca" (keyup.enter)="onEnter()" /></p>
+    <button (click)="getMarca()">Mostrar Marca</button>
+    <button (click)="addMarca()">Añadir Marca</button>
+    <p><strong>{{miMarca}}</strong></p>
+
     <h1>Compra las zapatillas de las mejores marcas</h1>
     <ul>
         <li *ngFor = "let marca of marcas; let indice = index">
-            {{indice + ' ' + marca}}
+            {{indice + ' ' + marca}} <button (click)="delMarca(indice)">borrar marca</button>
         </li>
     </ul>
 
@@ -17,8 +24,10 @@
 
                 <span [ngStyle]="{
                     'text-decoration': !tennis.stock ? 'line-through' : 'none'
-                }">
-                    {{tennis.nombre}} - <strong>{{tennis.precio}}</strong>
+                }"
+                [ngClass]="{'fondoRojo': tennis.precio > 50}">
+                    {{tennis.nombre}} - <strong 
+                        [class.AltoPrecio]="tennis.precio >= 50">{{tennis.precio}}</strong>
                 </span>
 
                 <span 
@@ -31,6 +40,7 @@
 </div>
 
 <p>El color de la mayoria de las zapatillas es</p>
+<input type="text" [(ngModel)]="color" />
 <ul [ngSwitch]="color">
     <li *ngSwitchCase="'yellow'">
         El color es <span [ngStyle]="{'background-color':color}">amarrillo</span>

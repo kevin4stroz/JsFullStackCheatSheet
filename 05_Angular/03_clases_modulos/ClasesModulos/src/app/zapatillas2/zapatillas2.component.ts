@@ -1,3 +1,4 @@
+import { ThrowStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { Zapatilla } from '../models/zapatilla';
 
@@ -11,9 +12,11 @@ export class Zapatillas2Component implements OnInit {
   public zapatillas : Array<Zapatilla>;
   public marcas : Array<string>;
   public color : string;
+  public miMarca : string;
 
   constructor() {
     this.color = 'yellow';
+    this.miMarca = 'fila';
     this.marcas = new Array();
     this.zapatillas = [
       new Zapatilla('reebok clasic','reebok',70, 'rojo', true),
@@ -39,5 +42,25 @@ export class Zapatillas2Component implements OnInit {
 
     console.log(this.marcas);
   } 
+
+  getMarca(){
+    alert(this.miMarca);
+  }
+
+  addMarca(){
+    this.marcas.push(this.miMarca);
+  }
+
+  delMarca(indice: number){
+    this.marcas.splice(indice,1);
+  }
+
+  onBlur(){
+    console.log('a salido del input , blur');
+  }
+
+  onEnter(){
+    console.log('dio enter');
+  }
 
 }
